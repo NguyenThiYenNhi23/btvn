@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tính Diện Tích Các Hình</h1>
+
+        <section>
+            <h2>Hình Chữ Nhật</h2>
+            <label for="length">Chiều dài: </label>
+            <input type="number" id="length" placeholder="Chiều dài" />
+            <label for="width">Chiều rộng: </label>
+            <input type="number" id="width" placeholder="Chiều rộng" />
+            <button onclick="dientichhcn()">Tính Diện Tích</button>
+            <div id="rectangleResult" class="result"></div>
+        </section>
+
+        <section>
+            <h2>Hình Tam Giác</h2>
+            <label for="base">Độ dài cơ sở: </label>
+            <input type="number" id="base" placeholder="Cạnh đáy" />
+            <label for="height">Chiều cao: </label>
+            <input type="number" id="height" placeholder="Chiều cao" />
+            <button onclick="dientichtamgiac()">Tính Diện Tích</button>
+            <div id="triangleResult" class="result"></div>
+        </section>
+
+        <section>
+            <h2>Hình Vuông</h2>
+            <label for="side">Độ dài cạnh: </label>
+            <input type="number" id="side" placeholder="Cạnh hình vuông" />
+            <button onclick="dientichhv()">Tính Diện Tích</button>
+            <div id="squareResult" class="result"></div>
+        </section>
+    </div>
+
+    <script src="bt2.js"></script>
+</body>
+</html>
